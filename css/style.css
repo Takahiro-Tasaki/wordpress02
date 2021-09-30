@@ -502,13 +502,17 @@ main {
 }
 
 .pagetop {
-  background-color: #75af57;
   bottom: 30px;
   height: 40px;
   position: fixed;
   right: 30px;
   width: 40px;
   z-index: 99;
+}
+
+.pagetop img {
+  height: auto;
+  width: 100%;
 }
 
 footer {

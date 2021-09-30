@@ -25,6 +25,9 @@ get_header();
 				</li>
 				<?php endwhile; ?>
 			</ol>
+			<div class="pagination">
+				<?php the_posts_pagination(); ?>
+			</div>
 		<?php else : ?>
 			<p>該当の記事はありません。</p>
 		<?php endif; ?>
